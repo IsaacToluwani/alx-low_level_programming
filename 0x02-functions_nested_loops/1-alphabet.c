@@ -1,34 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - Prints a text according number
- *
- * Return: Always (Success)
- */
+* print_alphabet - Make the alphabet
+*
+* Return: void
+*/
+void print_alphabet(void)
+{
+char c;
 
-int main(void)
+for (c = 'a'; c <= 'z'; c++)
 {
-int n, lastd;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-lastd = n % 10;
-
-if (lastd > 5)
-{
-printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
-}
-else if (lastd == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, lastd);
-}
-else if (lastd < 6 && lastd != 0)
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+_putchar(c);
 }
 
-return (0);
-
+_putchar('\n');
 }
