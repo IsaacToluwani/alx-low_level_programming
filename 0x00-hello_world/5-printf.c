@@ -1,8 +1,9 @@
-TASK 5
 #include <stdio.h>
-/
-* main - Entry point
-* Return: Always 0 (success)
+
+/**
+ * main - Prints a text
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
