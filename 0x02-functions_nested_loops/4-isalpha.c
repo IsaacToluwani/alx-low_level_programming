@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _isalpha - checks for alphabet prits 1 for alphabet and 0 for non alphabet
  * @c: The character to print
  *
