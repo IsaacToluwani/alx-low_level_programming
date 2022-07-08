@@ -17,14 +17,9 @@ else
 {
 for (ab = 1; ab <= size; ab++)
 {
-_putchar('\n');
-}
-else
-{
-for (ab = 1; ab <= size; ab++)
-{
 _putchar('#');
 for (ba = 2; ba <= size; ba++)
+{
 _putchar('#');
 }
 _putchar('\n');
